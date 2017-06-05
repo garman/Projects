@@ -40,5 +40,4 @@ class GaussLegendre
   end
 end
 
-points = ARGV[0]
-puts GaussLegendre.new(points).calculate_pi
+puts GaussLegendre.new(ARGV[0]).calculate_pi
